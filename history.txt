@@ -1,0 +1,90 @@
+    1  uname -a
+    2  sudo apt update && sudo apt upgrade
+    3  cat /etc/apt/sources.list
+    4  sudo apt install vim
+    5  cd ~
+    6  cd Downloads
+    7  man ls
+    8  ls -l
+    9  dpkg -i package.deb
+   10  sudo dpkg -i package.deb
+   11  cd /
+   12  su
+   13  sudo su
+   14  echo "hi all"
+   15  echo "$PWD hi all here!"
+   16  touch hi.sh
+   17  echo "$PATH"
+   18  vi hi.sh
+   19  ./hi.sh
+   20  chmod a+x hi.sh
+   21  chmod a+rwx hi.sh
+   22  ./hi.sh
+   23  ./hi.sh Ukraine
+   24  cp hi.sh scripts/
+   25  cp -r scripts/Documentts/
+   26  cp -r scripts/Documents/
+   27  cp -r scripts/ Documents/
+   28  cd scripts
+   29  mv hi.sh ..
+   30  cd ..
+   31  rmdir scripts
+   32  rm -r scripts
+   33  cd /bin
+   34  ls -l
+   35  cd ../..
+   36  tar -cvf scripts.tar scripts/
+   37  cat scripts/hi.sh
+   38  cat var/log/syslog
+   39  sudo til /var/log/syslog
+   40  sudo tail /var/log/syslog
+   41  less /var/log/syslog
+   42  sudo less /var/log/syslog
+   43  cd /
+   44  find . -name "dhcp"
+   45  find . -name "*dhcp*"
+   46  find . -name "*dhcp*" | grep -i --color=auto dhcp
+   47  find . -name "*dhcp*" | grep -i --color=auto etc
+   48  ping google.com
+   49  ping google.com &
+   50  ping google.com & date > log.txt
+   51  sudo ping google.com
+   52  vlc
+   53  sudo apt install vlc-bin
+   54  vlc
+   55  ls -l
+   56  cd /bin
+   57  ls
+   58  echo "$PATH"
+   59  set
+   60  whoami
+   61  cd /etc
+   62  ls
+   63  cd ..
+   64  cd lib
+   65  ls
+   66  dmesg
+   67  sudo dmesg
+   68  ls /dev
+   69  sudo dmesg -C
+   70  dmesg
+   71  df -h
+   72  cd /home
+   73  ls -l
+   74  lsmod
+   75  cd /proc
+   76  cat /proc/cpuinfo
+   77  echo 1 > /proc/sys/net/ipv4/ip_forward
+   78  sudo echo 1 > /proc/sys/net/ipv4/ip_forward
+   79  su
+   80  ifconfig
+   81  ifconfig -a
+   82  cd ~
+   83  echo "vika" > 1.txt
+   84  cat 1.txt
+   85  echo "vasya" > 2.txt
+   86  cat 2.txt
+   87  diff 1.txt 2.txt
+   88  history
+   89  lspci
+   90  history > history.txt
